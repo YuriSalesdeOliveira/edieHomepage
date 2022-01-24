@@ -44,7 +44,7 @@ div.main_container {
 }
 
 @media (max-width: 1000px) {
-    div.main_container { width: 100%; }
+    div.main_container { width: 90%; }
 }
 
 header.main_header {
@@ -71,6 +71,61 @@ header.main_header nav.main_header_nav {
     font-size: 1.1rem;
 }
 
+nav.main_header_nav a.main_header_nav_hide_button,
+header.main_header a.main_header_nav_show_button
+{
+    display: none;
+}
+
+@media (max-width: 800px)
+{
+    header.main_header {
+        height: 80px;
+        margin-bottom: 30px;
+    }
+
+    header.main_header nav.main_header_nav
+    {
+        display: none;
+    }
+
+    header.main_header nav.main_header_nav.show
+    {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 1000;
+        color: #ffffff;
+        backdrop-filter: blur(5px);
+        background-color: rgba(0,0,0, .7);
+    }
+
+    header.main_header nav.main_header_nav > :nth-child(n)
+    {
+        margin-bottom: 10px;
+    }
+
+    nav.main_header_nav a.main_header_nav_hide_button {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    nav.main_header_nav a.main_header_nav_hide_button,
+    header.main_header a.main_header_nav_show_button
+    {
+        display: block;
+    }
+}
+
+
 main.main_content {}
 
 main.main_content h1 {
@@ -90,8 +145,26 @@ main.main_content h1 span {
 }
 
 #people_talking {
-    width: 100%;
+    display: block;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px)
+{
+    main.main_content h1 {
+        width: 200px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+    
+    main.main_content h1 span {
+        font-size: .7rem;
+    }
 }
 
 section.contact_you {
