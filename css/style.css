@@ -156,7 +156,8 @@ main.main_content h1 span {
 @media (max-width: 800px)
 {
     main.main_content h1 {
-        width: 200px;
+        width: 100%;
+        max-width: 200px;
         margin-left: 30px;
         margin-bottom: 20px;
         font-size: 1.1rem;
@@ -230,27 +231,23 @@ section.contact_you form button {
 @media (max-width: 800px)
 {
     section.contact_you {
-        width: 200px;
         margin-left: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     
     section.contact_you h3 {
+        max-width: 160px;
         font-size: 1.1rem;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     
     section.contact_you p {
+        max-width: 250px;
         font-size: .7rem;
-        margin-bottom: 20px;
-    }
-
-    section.contact_you form {
-        height: 38px;
+        margin-bottom: 40px;
     }
     
     section.contact_you form label {
-        top: -15px;
         font-size: .6rem;
     }
     
@@ -260,8 +257,7 @@ section.contact_you form button {
     }
     
     section.contact_you form button {
-        width: 60px;
-        height: 32px;
+        width: 70px;
     }
 }
 
@@ -331,6 +327,40 @@ div.services_item button {
     font-size: .8rem;
     color: #828282;
     border-radius: 8px;
+}
+
+@media (max-width: 800px)
+{
+    section.services {
+        margin-bottom: 200px;
+    }
+    
+    section.services h3 {
+        max-width: 170px;
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    section.services div.services_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    div.services_item h4 {
+        font-size: .9rem;
+    }
+    
+    div.services_item p {
+        max-width: 200px;
+        font-size: .8rem;
+        margin-bottom: 30px;
+    }
+    
+    div.services_item button {
+        font-size: .7rem;
+    }
 }
 
 section.designs {
