@@ -613,6 +613,19 @@ div.comment_author_about span.comment_author_about_function {
     color: #828282;
 }
 
+@media (max-width: 800px)
+{
+    section.comment {
+        margin-bottom: 100px;
+    }
+    
+    section.comment > span {
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+}
+
 footer.main_footer {
     position: absolute;
     width: 100vw;
@@ -719,6 +732,29 @@ div.main_footer_container div.main_footer_copright {
 @media (max-width: 1000px) {
     footer.main_footer div.main_footer_container {
         width: 100%;
+    }
+
+    footer.main_footer div.main_footer_container {
+        display: block;
+        padding-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.main_footer_container nav.main_footer_nav {
+        margin-bottom: 40px;
+    }
+    
+    div.main_footer_container div.main_footer_contact {
+        margin-bottom: 50px;
+
+    }
+    
+    div.main_footer_container div.main_footer_contact_you {
+        max-width: 250px;
+        height: 40px;
+        margin-top: 25px;
+        margin-bottom: 100px;
     }
 }
 
