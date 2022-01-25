@@ -35,9 +35,10 @@
 
 https://user-images.githubusercontent.com/54549125/150392513-76230f9b-d0d3-46a4-bf14-3ff3f99b577a.mp4
 
+https://user-images.githubusercontent.com/54549125/150917529-59830451-d668-494b-83f0-af0fd63e576d.mp4
+
 - Onde posso ver sua demonstração? [Click aqui](https://yurisalesdeoliveira.github.io/edieHomepage)
 - Qual foi sua experiência? Consegui praticar alguns conceitos de CSS
-- O que você aprendeu / melhorou? Aprendi um pouco sobre o CSS Grid
 
 ### Tecnologias
 
