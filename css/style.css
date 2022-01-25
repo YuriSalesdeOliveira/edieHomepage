@@ -550,26 +550,38 @@ section.meet_the_team div.meet_the_team_pictures :nth-child(3) {
     }
 
     section.meet_the_team div.meet_the_team_presentation {
-        max-width: 280px;
+        max-width: 160px;
+    }
+
+    div.meet_the_team_presentation h3 {
+        font-size: 1.1rem;
+    }
+    
+    div.meet_the_team_presentation h3 span {
+        font-size: .7rem;
+    }
+    
+    div.meet_the_team_presentation p {
+        font-size: .8rem;
     }
 
     section.meet_the_team div.meet_the_team_pictures {
         gap: 10px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     section.meet_the_team div.meet_the_team_pictures :nth-child(1) {
-        max-width: 115px;
+        max-width: 100px;
     }
 
     section.meet_the_team div.meet_the_team_pictures :nth-child(2) {
-        width: 130px;
+        width: 115px;
     }
 
     section.meet_the_team div.meet_the_team_pictures :nth-child(3) {
-        width: 150px;
+        width: 135px;
     }
 }
 
@@ -621,8 +633,22 @@ div.comment_author_about span.comment_author_about_function {
     
     section.comment > span {
         width: 100%;
-        font-size: 1rem;
+        font-size: .9rem;
         margin-bottom: 15px;
+    }
+    
+    div.comment_author img {
+        width: 45px;
+        margin-right: 5px;
+    }
+    
+    div.comment_author_about span.comment_author_about_name {
+        font-size: .8rem;
+        margin-bottom: 5px;
+    }
+    
+    div.comment_author_about span.comment_author_about_function {
+        font-size: .7rem;
     }
 }
 
@@ -744,10 +770,13 @@ div.main_footer_container div.main_footer_copright {
     div.main_footer_container nav.main_footer_nav {
         margin-bottom: 40px;
     }
+
+    nav.main_footer_nav a.main_footer_nav_item {
+        font-size: .8rem;
+    }
     
     div.main_footer_container div.main_footer_contact {
         margin-bottom: 50px;
-
     }
     
     div.main_footer_container div.main_footer_contact_you {
@@ -755,6 +784,10 @@ div.main_footer_container div.main_footer_copright {
         height: 40px;
         margin-top: 25px;
         margin-bottom: 100px;
+    }
+
+    div.main_footer_contact_you form label {
+        font-size: .7rem;
     }
 }
 
